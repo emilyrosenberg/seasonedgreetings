@@ -144,31 +144,6 @@ label {
   display: block;
   margin-top: 10px;
   color: #d9534f; 
-  color: #d9534f; 
-}
-
-input[type="file"] {
-  display: none; 
-}
-
-.file-upload-container {
-  text-align: center;
-  margin-bottom: 15px; 
-}
-
-.custom-file-upload {
-  background-color: darkgreen;
-  color: white;
-  padding: 10px;
-  border: 1px solid darkgreen;
-  border-radius: 5px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-/* Optional: Style the file input button on hover */
-.custom-file-upload:hover {
-  background-color: #DD0426;
 }
 
 input,
@@ -181,18 +156,16 @@ select {
   box-sizing: border-box;
   border: 1px solid #d9534f; 
   border-radius: 5px;
-  border: 1px solid #d9534f; 
-  border-radius: 5px;
 }
 
 input[type="submit"] {
-  background-color: darkgreen; 
+  background-color: #5cb85c; 
   color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #DD0426; 
+  background-color: #4cae4c; 
 }
 
 /* Additional styling for select dropdown */
