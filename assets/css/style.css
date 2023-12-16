@@ -190,7 +190,7 @@ select:focus {
 
   /*----- FOOTER -----*/
 
-  .footer{
+  /* .footer{
     background-color: #9197AE;
     padding: 10px;
     text-align: center;
@@ -211,7 +211,7 @@ select:focus {
     color: #EFF6EE;
     text-decoration: none;
     font-size: 20px;
-  }
+  } */
 
 /* Media query for responsiveness */
 @media screen and (max-width: 600px) {
