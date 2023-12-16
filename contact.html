@@ -3,46 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Recipes, Find a recipe, Holidays, Christmas, Hanukkah, Winter Solstice, Yule, Kwanza, Bodhi Day">
-  <meta name="description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
-  <meta name="url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
-  <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Recipes, Find a recipe, Holidays, Christmas, Hanukkah, Winter Solstice, Yule, Kwanza, Bodhi Day">
-  <meta name="description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
-  <meta name="url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
-
-
-  <!-- SOCIAL MEDIA META -->
-  <!-- Facebook, LinkedIn, Google -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Seasoned Greetings">
-  <meta property="og:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
-  <meta name="image" property="og:image" content="URL TO IMAGE">
-  <meta property="og:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
-  <meta property="og:url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
-  <meta property="og:site_name" content="Seasoned Greetings - Contact Us">
-  <meta name="author" content="The Six Seasons">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Seasoned Greetings - Contact Us">
-  <meta name="twitter:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
-  <meta name="twitter:image" content="URL TO IMAGE">
-  <meta name="twitter:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicons/site.webmanifest">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-  <title>Seasoned Greetings - Contact Us</title>
+  <title>Contact Us</title>
+  <title>Contact Us</title>
 
 </head>
 
@@ -90,10 +69,30 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
+  <div class="contact-body">
+    <div class="contact-container">
+      <form class="contact-form" action="thankyou.html">
+        <h2>Contact Us<span style="font-size: 1.5em;">🍒</span>
+        </h2>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
                 <label for="phone">Phone Number:</label>
                 <input type="tel" id="phone" name="phone" required>
 
+        <label for="inquiryType">Inquiry Type:</label>
+
+        <!-- Add a placeholder and options for Recipe Suggestion and General Enquiry -->
+        <select id="enquiry-type" name="enquiry-type" required>
+          <option value="" disabled selected>Please select</option>
+          <option value="recipe">Recipe Suggestion</option>
+          <option value="enquiry">General Enquiry</option>
+        </select>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
