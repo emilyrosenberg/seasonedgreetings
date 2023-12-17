@@ -49,7 +49,7 @@
   <header>
 
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar" style="background-color: #DD0426">
       <span class="w-100 d-flex flex-row-reverse flex-lg-row justify-content-between mt-3">
         <h1 class="d-lg-block d-none mx-auto"><a href="index.html" class="text-reset text-decoration-none">Seasoned Greetings</a>
         </h1>
@@ -74,11 +74,11 @@
         </div>
       </div>
       <br>
-      <div class="input-group w-75 mx-auto">
+      <div class="input-group w-50 mx-auto">
         <input type="search" class="form-control" id="search-input" placeholder="Find a Recipe..."
           aria-label="Recipe Search Bar" aria-describedby="search-addon" />
-        <button type="button" class="btn btn-outline-primary h-50 m-1" id="search"
-          onclick="searchRecipes(document.getElementById('search-input').value)" data-mdb-ripple-init>search</button>
+        <button type="button" class="btn btn-outline-light bg-danger border-3" id="search"
+          onclick="searchRecipes(document.getElementById('search-input').value)" data-mdb-ripple-init>Search</button>
       </div>
     </nav>
     <!-- end of Navbar -->
@@ -108,33 +108,36 @@
     <!-- footer -->
 
     <!-- Credit: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-    <footer class="footer text-center text-lg-start">
+    <footer class="footer text-center text-lg-start" style="background-color: #DD0426">
       <!-- Section: Social media -->
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">
         <h3>Seasoned Greetings</h3>
-        <p>Copyright &copy 2023</p>
+        <p>
+          <span>Copyright &copy 2023</span>
+          <a href="team.html" class="text-reset text-decoration-none">Meet the Team</a>
+      </p>
       </div>
       <!-- end of Left -->
   
       <!-- Right -->
       <div class="social-links">
         <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset text-decoration-none">
-          <i class="fa fa-facebook-f fa-lg"></i>
+          <i class="fa fa-facebook-f fa-2x"></i>
         </a>
         <a href="" target="_blank" class="me-4 text-reset text-decoration-none">
-          <i class="fa fa-twitter fa-lg"></i>
+          <i class="fa fa-twitter fa-2x"></i>
         </a>
         <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset text-decoration-none">
-          <i class="fa fa-instagram fa-lg"></i>
+          <i class="fa fa-instagram fa-2x"></i>
         </a>
         <a href="https://www.linkedin.com/" target="_blank" class="me-4 text-reset text-decoration-none">
-          <i class="fa fa-linkedin fa-lg"></i>
+          <i class="fa fa-linkedin fa-2x"></i>
         </a>
         <a href="" target="_blank" class="me-4 text-reset text-decoration-none">
-          <i class="fa fa-github fa-lg"></i>
+          <i class="fa fa-github fa-2x"></i>
         </a>
       </div>
       <!-- end of Right -->

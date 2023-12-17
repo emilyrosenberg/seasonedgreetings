@@ -24,7 +24,6 @@
 /*----- BACKGROUND STYLES -----*/
 
 body {
-  background-color: var(--off-white);
   background-image: url("/assets/images/background.jpg");
 }
 
